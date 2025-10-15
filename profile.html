@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef Amaka - Queen of Soups | NaijaChow</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-green-700">NaijaChow</a>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="index.html#features" class="text-gray-600 hover:text-green-700">How it Works</a>
+                <a href="index.html#chefs" class="text-gray-600 hover:text-green-700">Find a Chef</a>
+                <a href="#" class="text-gray-600 hover:text-green-700">For Chefs</a>
+            </div>
+            <div class="hidden md:flex items-center space-x-4">
+                <a href="#" class="text-gray-600 hover:text-green-700">Log In</a>
+                <a href="#" class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition duration-300">Sign Up</a>
+            </div>
+             <button id="mobile-menu-button" class="md:hidden">
+                <i data-lucide="menu" class="h-6 w-6 text-gray-600"></i>
+            </button>
+        </nav>
+         <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pt-2 pb-4 space-y-2">
+            <a href="index.html#features" class="block text-gray-600 hover:text-green-700">How it Works</a>
+            <a href="index.html#chefs" class="block text-gray-600 hover:text-green-700">Find a Chef</a>
+            <a href="#" class="block text-gray-600 hover:text-green-700">For Chefs</a>
+            <hr class="my-2">
+            <a href="#" class="block text-gray-600 hover:text-green-700">Log In</a>
+            <a href="#" class="block bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition duration-300">Sign Up</a>
+        </div>
+    </header>
+
+    <main class="container mx-auto p-4 md:p-8">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <!-- Left Sidebar -->
+            <aside class="lg:col-span-1 space-y-6">
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <img src="https://images.unsplash.com/photo-1542992130-176885a73595?q=80&w=1887&auto=format&fit=crop" alt="Chef Amaka" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-green-200">
+                    <h1 class="text-2xl font-bold">Chef Amaka</h1>
+                    <p class="text-gray-600 mb-2">Queen of Soups</p>
+                    <div class="flex items-center justify-center text-sm text-gray-500 mb-4">
+                        <i data-lucide="map-pin" class="h-4 w-4 mr-1"></i>
+                        <span>Ikeja, Lagos</span>
+                    </div>
+                    <div class="flex justify-center items-center mb-4">
+                        <div class="flex items-center">
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <span class="text-gray-700 font-bold ml-1">4.9</span>
+                            <span class="text-gray-500 ml-2">(82 reviews)</span>
+                        </div>
+                    </div>
+                    <div class="space-y-3">
+                        <a href="#" class="flex items-center justify-center w-full bg-green-600 text-white font-semibold py-3 rounded-lg hover:bg-green-700 transition duration-300">
+                            <i data-lucide="phone" class="h-5 w-5 mr-2"></i> Contact Chef
+                        </a>
+                         <a href="#" class="flex items-center justify-center w-full bg-gray-200 text-gray-800 font-semibold py-3 rounded-lg hover:bg-gray-300 transition duration-300">
+                            <i data-lucide="bookmark" class="h-5 w-5 mr-2"></i> Save Profile
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                     <h3 class="text-lg font-semibold mb-4 border-b pb-2">Connect with me</h3>
+                     <div class="space-y-3">
+                        <a href="#" class="flex items-center p-3 rounded-lg hover:bg-gray-100 transition-colors">
+                            <i data-lucide="message-circle" class="h-6 w-6 text-green-500"></i>
+                            <span class="ml-3 font-medium">WhatsApp</span>
+                        </a>
+                        <a href="#" class="flex items-center p-3 rounded-lg hover:bg-gray-100 transition-colors">
+                            <i data-lucide="instagram" class="h-6 w-6 text-pink-500"></i>
+                             <span class="ml-3 font-medium">Instagram</span>
+                        </a>
+                        <a href="#" class="flex items-center p-3 rounded-lg hover:bg-gray-100 transition-colors">
+                            <i data-lucide="send" class="h-6 w-6 text-blue-500"></i>
+                             <span class="ml-3 font-medium">Telegram</span>
+                        </a>
+                     </div>
+                </div>
+
+                 <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-lg font-semibold mb-4 border-b pb-2">My Specialties</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full">Nigerian Soups</span>
+                        <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full">Event Catering</span>
+                        <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full">Seafood Okro</span>
+                        <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full">Afang Soup</span>
+                        <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full">Private Dining</span>
+                         <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full">Bulk Orders</span>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Right Content -->
+            <section class="lg:col-span-2 space-y-8">
+                <!-- About Section -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h2 class="text-xl font-bold mb-4">About Chef Amaka</h2>
+                    <p class="text-gray-600 leading-relaxed">
+                        With over 12 years of experience in the culinary arts, I bring passion, authenticity, and a touch of modern flair to traditional Nigerian cuisine. My journey began in my grandmother's kitchen in Calabar, where I learned the secrets of creating rich, flavorful soups that tell a story.
+                        <br><br>
+                        I specialize in catering for events of all sizes, from intimate family gatherings to large weddings and corporate functions. My goal is to provide an unforgettable culinary experience that leaves your guests satisfied and delighted. Let's create something delicious together!
+                    </p>
+                </div>
+                
+                <!-- Services Section -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h2 class="text-xl font-bold mb-4">Services Offered</h2>
+                    <div class="space-y-4">
+                        <div class="border rounded-lg p-4">
+                            <h3 class="font-semibold text-lg">Full-Service Event Catering</h3>
+                            <p class="text-gray-600">Complete catering solution for weddings, birthdays, and corporate events. Includes menu planning, food preparation, and on-site service.</p>
+                        </div>
+                         <div class="border rounded-lg p-4">
+                            <h3 class="font-semibold text-lg">Private Chef Services</h3>
+                            <p class="text-gray-600">Enjoy a bespoke restaurant-quality dining experience in the comfort of your own home. Perfect for special occasions and dinner parties.</p>
+                        </div>
+                         <div class="border rounded-lg p-4">
+                            <h3 class="font-semibold text-lg">Bulk Food Orders (Soup Bowls)</h3>
+                            <p class="text-gray-600">Order my signature soups in bulk. Perfect for weekly meal prep or stocking your freezer with authentic, home-cooked meals.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio/Gallery Section -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h2 class="text-xl font-bold mb-4">My Work</h2>
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                        <img src="https://images.unsplash.com/photo-1604135761085-50854c6c2409?q=80&w=1964&auto=format&fit=crop" alt="Nigerian food" class="rounded-lg object-cover aspect-square w-full h-full cursor-pointer hover:opacity-80 transition-opacity">
+                        <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?q=80&w=1971&auto=format&fit=crop" alt="Nigerian food" class="rounded-lg object-cover aspect-square w-full h-full cursor-pointer hover:opacity-80 transition-opacity">
+                        <img src="https://images.unsplash.com/photo-1606791422819-158a48e77a29?q=80&w=1887&auto=format&fit=crop" alt="Nigerian food" class="rounded-lg object-cover aspect-square w-full h-full cursor-pointer hover:opacity-80 transition-opacity">
+                        <img src="https://images.unsplash.com/photo-1626382492572-c23be76403d5?q=80&w=1887&auto=format&fit=crop" alt="Nigerian food" class="rounded-lg object-cover aspect-square w-full h-full cursor-pointer hover:opacity-80 transition-opacity">
+                        <img src="https://images.unsplash.com/photo-1585237672728-4034b7111037?q=80&w=1887&auto=format&fit=crop" alt="Nigerian food" class="rounded-lg object-cover aspect-square w-full h-full cursor-pointer hover:opacity-80 transition-opacity">
+                         <div class="bg-gray-100 rounded-lg flex items-center justify-center aspect-square cursor-pointer hover:bg-gray-200">
+                            <span class="font-semibold text-gray-600">+12 more</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Reviews Section -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                     <h2 class="text-xl font-bold mb-6">Featured Reviews</h2>
+                     <div class="space-y-6">
+                        <!-- Review 1 -->
+                        <div class="flex space-x-4">
+                            <img src="https://placehold.co/48x48/E2E8F0/4A5568?text=TO" alt="Client" class="w-12 h-12 rounded-full">
+                            <div>
+                                <div class="flex items-center mb-1">
+                                    <h4 class="font-semibold">Tunde O.</h4>
+                                    <div class="flex items-center ml-3">
+                                        <svg class="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                        <span class="text-sm font-bold ml-1">5.0</span>
+                                    </div>
+                                </div>
+                                <p class="text-gray-600">"Chef Amaka is simply the best! She catered my daughter's wedding and everyone is still talking about the Afang soup. Professional, punctual, and the food was divine. Highly recommended!"</p>
+                            </div>
+                        </div>
+                        <!-- Review 2 -->
+                        <div class="flex space-x-4 border-t pt-6">
+                            <img src="https://placehold.co/48x48/E2E8F0/4A5568?text=CI" alt="Client" class="w-12 h-12 rounded-full">
+                            <div>
+                                <div class="flex items-center mb-1">
+                                    <h4 class="font-semibold">Chidinma I.</h4>
+                                     <div class="flex items-center ml-3">
+                                        <svg class="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                        <span class="text-sm font-bold ml-1">5.0</span>
+                                    </div>
+                                </div>
+                                <p class="text-gray-600">"I order her seafood okro in bulk every two weeks. It's a lifesaver for a busy professional like me. Tastes just like my mother's cooking. Thank you, Chef!"</p>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12 mt-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">NaijaChow</h3>
+                    <p class="text-gray-400">Connecting you to the heart of Nigerian cuisine.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Explore</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Blog</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Contact Us</a></li>
+                    </ul>
+                </div>
+                 <div>
+                    <h4 class="font-semibold mb-4">For Clients</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">How to Hire</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Help & FAQ</a></li>
+                    </ul>
+                </div>
+                 <div>
+                    <h4 class="font-semibold mb-4">For Chefs</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">How it Works</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Sign Up</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-gray-700 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-500">&copy; 2024 NaijaChow. All rights reserved.</p>
+                <div class="flex space-x-4 mt-4 md:mt-0">
+                    <a href="#" class="text-gray-400 hover:text-white"><i data-lucide="twitter"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white"><i data-lucide="instagram"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white"><i data-lucide="facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        lucide.createIcons();
+        
+        // --- Mobile Menu Toggle ---
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
